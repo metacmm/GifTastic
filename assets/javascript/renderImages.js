@@ -1,6 +1,7 @@
 /** function to render each API call return object to image */
 function renderImages(image, index){
     var imgDiv = $("<div>");
+    imgDiv.addClass("float-left px-2");
     var p = $("<div>");
     p.text(image.rating);
     var img = $("<img>");
